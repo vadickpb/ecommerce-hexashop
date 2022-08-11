@@ -4,33 +4,33 @@ import Directory from '../../components/directory/Directory'
 const categories = [
   {
     "id": 2,
-    "title": "niños",
+    "title": "mujeres",
     "imageUrl": "https://i.ibb.co/Fm8qT3j/baner-right-image-01.jpg",
-    "route" : "shop/casacas"
+    "route" : "/womans"
   },
   {
     "id": 3,
-    "title": "accesorios",
+    "title": "hombres",
     "imageUrl": "https://i.ibb.co/SPVLPXy/baner-right-image-02.jpg",
-    "route" : "shop/zapatillas"
+    "route" : "/mens"
   },
   {
     "id": 4,
-    "title": "mujeres",
+    "title": "niños",
     "imageUrl": "https://i.ibb.co/Rc0P0hs/baner-right-image-03.jpg",
     "route" : "shop/mujeres"
   },
   {
     "id": 5,
-    "title": "hombres",
+    "title": "accesorios",
     "imageUrl": "https://i.ibb.co/rGgDGS3/baner-right-image-04.jpg",
-    "route" : "shop/hombres"
+    "route" : "/mens"
   }
 ]
 const Home = () => {
   return (
     <>
-    <div className="main-banner" id="top">
+    <div className="main-banner animate__animated animate__fadeIn" id="top">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-6">

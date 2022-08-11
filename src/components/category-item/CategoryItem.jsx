@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const CategoryItem = ({ categories }) => {
@@ -12,15 +13,15 @@ const CategoryItem = ({ categories }) => {
                         <div className="right-first-image">
                             <div className="thumb">
                                 <div className="inner-content">
-                                    <h4>{category.title}</h4>
-                                    <span>Best Clothes For Women</span>
+                                    <h4 className="category-title">{category.title}</h4>
+                                    <span>Mejores prendas </span>
                                 </div>
                                 <div className="hover-content">
                                     <div className="inner">
-                                        <h4>{category.title}</h4>
-                                        <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
+                                        <h4 className="category-title">{category.title}</h4>
+                                        <p>Escoje cualquiera de nuestros modelos</p>
                                         <div className="main-border-button">
-                                            <a href="#">Discover More</a>
+                                            <Link to={category.route}>Mira los productos</Link>
                                         </div>
                                     </div>
                                 </div>

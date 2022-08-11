@@ -846,6 +846,11 @@ banner
     margin-bottom: 20px;
 }
 
+.category-title {
+    text-transform: uppercase;
+    color: #fff;
+}
+
 
 
 /*
@@ -1701,6 +1706,9 @@ Products Page
 #products .item .thumb img {
     width: 100%;
     overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+
 }
 
 #products .item .down-content {
